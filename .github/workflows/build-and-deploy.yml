@@ -2,7 +2,7 @@ name: Build and Deploy to Skynet
 on: [push]
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         node-version: [15.x]
